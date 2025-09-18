@@ -1,1 +1,19 @@
-
+#background{
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    top: 0;
+    background-color: black;
+    border: 5px solid #00f; /* Base border color */
+    box-shadow: 0 0 20px #00f, 0 0 40px #00f, 0 0 60px #00f; /* Glowing effect */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Pure black */
+  color: #fff; /* White text for contrast */
+  font-family: Arial, sans-serif;
+}

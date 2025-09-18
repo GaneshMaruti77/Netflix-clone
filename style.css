@@ -6,7 +6,7 @@
     z-index: -1;
     top: 0;
     background-color: black;
-    border: 5px solid #00f; /* Base border color */
+    border-bottom: 5px solid #00f; /* Base border color */
     box-shadow: 0 0 20px #00f, 0 0 40px #00f, 0 0 60px #00f; /* Glowing effect */
     border-radius: 10px; /* Optional: rounded corners */
 }

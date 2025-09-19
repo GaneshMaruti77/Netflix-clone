@@ -10,6 +10,31 @@
     box-shadow: 0 0 20px #00f, 0 0 40px #00f, 0 0 60px #00f; /* Glowing effect */
     border-radius: 10px; /* Optional: rounded corners */
 }
+#navbar{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+}
+.netflix-logo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size : 3rem;
+  color : #e50914; /* Netflix red */
+  text-shadow: 2px 2px 0 #000;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  position : fixed;
+  left : 5%;
+  top  : 1%;
+  margin: 0px;
+}
+@media (max-width: 768px) {
+  .netflix-logo {
+    font-size: 2.5rem;
+    top : 1%;
+    left : 2%;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -17,3 +42,28 @@ body {
   color: #fff; /* White text for contrast */
   font-family: Arial, sans-serif;
 }
+#navright{
+    position: fixed;
+    right: 10%;
+    top: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#language{
+    background-color: #000;
+    color: #fff;
+    font-size: medium;
+    border: 2px solid #fff;
+}
+#signin{
+    background-color: #e50914;
+    color: #fff;
+    font-size: medium;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
